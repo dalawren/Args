@@ -9,7 +9,8 @@ bcArgs args[] = {
     { n }
 };
 bcParseArgs(argc, argv, args);
-PrintFactorial(n);
+if (n != (unsigned int)-1)
+    PrintFactorial(n);
 ```
 
 A program that performs a math operation on 2 or more numbers could be implemented with:
