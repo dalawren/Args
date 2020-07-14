@@ -2,7 +2,7 @@
 
 A C++11 API that makes it simple to parse command line arguments and assign them to C++ variables.
 
-For example, to parse arguments for a Factorial program that takes one argument could be implemented with:
+For example, to parse arguments for a Factorial program that takes one argument:
 ```
 unsigned int n = (unsigned int)-1;
 bcArgs args[] = {
