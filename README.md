@@ -9,10 +9,10 @@ For example, to parse the arguments for a Factorial program that takes one argum
 ```
 could be implemented with:
 ```
-    unsigned int n = (unsigned int)-1;
-    bcArgs args[] = {
-        { n }
-    };
-    bcParseArgs(argc, argv, args);
+unsigned int n = (unsigned int)-1;
+bcArgs args[] = {
+    { n }
+};
+bcParseArgs(argc, argv, args);
 ```
 
